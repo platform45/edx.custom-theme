@@ -11,7 +11,7 @@ body, .content-wrapper, .course-wrapper main, .xmodule_display.xmodule_VideoBloc
  height: 100% !important;
 }
 
-.content-wrapper, .course-wrapper main{
+.content-wrapper, .course-wrapper{
   background: #e5e5e5 !important;
   padding: 0 !important;
 }
@@ -107,7 +107,7 @@ video {
         height: 400px;
         left: auto;
         right: auto;
-        margin: -40px 2px;
+        margin: -40px 0;
         background-image: url(https://images.pexels.com/photos/2065490/pexels-photo-2065490.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=11100);
         /* background-repeat: no-repeat;
         background-size: contain;
@@ -216,7 +216,7 @@ label{
    }
 
 .xblock-student_view-html > p {
-    /* border-left: 1px solid #c4c4c4 !important; */
+    border-left: 1px solid #c4c4c4 !important;
     margin: inherit !important;
     /* font-family: 'Circular Std'; */
 }
@@ -267,12 +267,12 @@ label{
 }
 /* End of Audio content style */
 
-p:empty {
-    display: none;
-}
-
 .audio_block > audio{
     position: absolute;
     bottom: -100px;
     width: -webkit-fill-available;
 }
+
+p:empty { display: none !important;}
+p:blank{ display: none;}
+p:-moz-only-whitespace{ display: none !important;}
