@@ -187,6 +187,10 @@ video {
     line-height: 1;
 }
 
+div.xblock.xblock-student_view.xblock-student_view-html.xmodule_display.xmodule_HtmlBlock.xblock-initialized p {
+    line-height: normal !important;
+}
+
 .course-wrapper .course-content .vert-mod .vert, .course-wrapper .courseware-results-wrapper .vert-mod .vert {
     border-bottom: white !important;
     margin-bottom: 15px;
