@@ -588,3 +588,14 @@ pre img {
     background: #007aff;
     opacity: 1;
 }
+
+
+
+/*
+MathJax specific rule
+Force display none as requested by client, to hide loading messages
+*/
+#MathJax_Message {
+    display: none !important;
+}
+
